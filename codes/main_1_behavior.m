@@ -1,5 +1,5 @@
 %% main analysis 2016
-addpath(genpath('../codes_support'))
+main_0_setup;
 rawdatadir = '../data';
 savedir = '../data/all';
 files = dir(fullfile(rawdatadir,'Imported_EE_blinkCuriosity_2016S.csv'));
@@ -12,6 +12,7 @@ opt_game_sub = {'EEpreprocess_game_sub_repeatedgame'};
 opt_analysis = {'EEanalysis_sub_basic', 'EEanalysis_sub_MLEbasic'};
 [sub0, game, idxsub] = W.analysis_pipeline(filename, opt_sub, opt_preprocess, opt_game_sub, opt_analysis, savedir);
 W.writetable(game, fullfile(savedir,'data_all.csv'));
+W.writetable(sub0, '../data/all/SUB_EE_blinkCuriosity_2016S.csv');
 %% exclude participants
 sub0 = readtable('../data/all/SUB_EE_blinkCuriosity_2016S.csv', 'Delimiter', ',');
 load('../data/all/idxsub_EE_blinkCuriosity_2016S.mat');
@@ -70,18 +71,28 @@ save('../data/all/bayes_2noise_dRonly.mat', 'bayes_data_dRonly');
 save('../data/all/bayes_2noise_dIonly.mat', 'bayes_data_dIonly');
 save('../data/all/bayes_2noise_0model.mat', 'bayes_data_0model');
 
-%% R1 - p(low mean) in repeated games
-plt = W_plt('savedir', '../figures_revision', 'savepfx', 'Revision', 'isshow', true, ...
-    'issave', true, 'extension',{'svg', 'jpg'});
+%% save bayes data (dI var, requested by reviewer 2)
+load('../data/all/idxsub_exclude.mat');
+game = readtable('../data/all/data_all.csv', 'Delimiter', ',');
+g = W.tab_autofieldcombine(game);
+dI = arrayfun(@(x)getdI_onegame(g.choice(x,:), g.reward(x,:)), 1:size(g,1));
+game.dIvar = dI';
+
+bayesdata = EEbayes_reformat(game, idxsub(id), 'EE2noise');
+save('../data/all/bayesdata.mat', 'bayesdata');
+%% Revision figure (not included in manuscript) - p(low mean) in repeated games
+% plt = W_plt('savedir', '../figures_revision', 'savepfx', 'Revision', 'isshow', true, ...
+%     'issave', true, 'extension',{'svg', 'jpg'});
 plt.figure(1,2);
+tgp = gp{1};
 plt.ax(1,1);
 % plt.plot(1:2, gp.GPav_p_hi13_od1, gp.GPste_p_hi13_od1, 'line', 'color', 'black');
 % plt.plot(1:2, gp.GPav_p_hi13_od2, gp.GPste_p_hi13_od2, 'line', 'color', 'black50');
 % plt.setfig_ax('xlabel', 'Horizon', 'xticklabel', {'1', '6'}, 'ylabel', 'p(high info)', 'legend', {'1st repeat', '2nd repeat'}, 'xlim', [0.5 2.5], ...
 %     'ylim', [.35 .65], 'ytick', 0:.1:1, 'xtick', 1:2,'legloc', 'NW');
 % plt.ax(1,2);
-plt.plot(1:2, gp.GPav_p_lm22_od1, gp.GPste_p_lm22_od1, 'line', 'color', 'black');
-plt.plot(1:2, gp.GPav_p_lm22_od2, gp.GPste_p_lm22_od2, 'line', 'color', 'black50');
+plt.plot(1:2, tgp.GPav_p_lm22_od1, tgp.GPste_p_lm22_od1, 'line', 'color', 'black');
+plt.plot(1:2, tgp.GPav_p_lm22_od2, tgp.GPste_p_lm22_od2, 'line', 'color', 'black50');
 plt.setfig_ax('xlabel', 'Horizon', 'xticklabel', {'1', '6'}, 'ylabel', 'p(low mean)', 'legend', {'1st repeat', '2nd repeat'}, 'xlim', [0.5 2.5], ...
     'ylim', [0 0.4], 'ytick', 0:.1:1,'xtick', 1:2, 'legloc', 'NW');
 
@@ -92,12 +103,11 @@ plt.setfig_ax('xlabel', 'Horizon', 'xticklabel', {'1', '6'}, 'ylabel', 'p(low me
 %     'ylim', [.35 .65], 'ytick', 0:.1:1, 'xtick', 1:2,'legloc', 'NW');
 % plt.ax(2,2);
 plt.ax(1,2)
-plt.plot(1:2, gp.GPav_p_lm22_h1, gp.GPste_p_lm22_h1, 'line', 'color', 'black');
-plt.plot(1:2, gp.GPav_p_lm22_h2, gp.GPste_p_lm22_h2, 'line', 'color', 'black50');
+plt.plot(1:2, tgp.GPav_p_lm22_h1, tgp.GPste_p_lm22_h1, 'line', 'color', 'black');
+plt.plot(1:2, tgp.GPav_p_lm22_h2, tgp.GPste_p_lm22_h2, 'line', 'color', 'black50');
 plt.setfig_ax('xlabel', 'Horizon', 'xticklabel', {'1', '6'}, 'ylabel', 'p(low mean)', 'legend', {'1st half', '2nd half'}, 'xlim', [0.5 2.5], ...
     'ylim', [0 0.4], 'ytick', 0:.1:1,'xtick', 1:2, 'legloc', 'NW');
-plt.update('repeat');
-
+plt.update('Revision_repeat');
 %%
 % subject level parameter,
 % det/ran noise at the subject level
