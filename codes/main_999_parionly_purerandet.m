@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup;
 %% same as above but use actual information and bias
 paramsub = load(fullfile(outputdir, ['HBI_DetRanNoise_paironly_stat.mat'])).stats.mean;
 data = load('../data/all/bayes_2noise_paironly.mat').bayes_data_paironly;

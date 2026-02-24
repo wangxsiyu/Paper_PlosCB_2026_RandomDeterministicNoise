@@ -1,9 +1,10 @@
-files = fullfile('../bayesoutput/allR1',{'HBI_DetRanNoiseR1_stat','HBI_DetRanNoiseR1_nonhierarchical_stat'});
+files = fullfile('../bayesoutput/all',{'HBI_DetRanNoiseR1_stat','HBI_DetRanNoiseR1_nonhierarchical_stat'});
 st = W.load(files);
 st = W.cellfun(@(x)x.stats.mean, st, false);
 %%
 y1 = W.load('./Temp/HBI_fit_real_stat'); y1 = y1.stats.mean;
 %% simuilate non-hierarchical
+data = importdata('../data/all/bayes_2noise.mat');
 simu = EEsimulate_bayes_2noise_simple(data, st{2}.Infobonus_sub, ...
     st{2}.bias_sub, st{2}.NoiseRan_sub, st{2}.NoiseDet_sub);
 d = simu;
