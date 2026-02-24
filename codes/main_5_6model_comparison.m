@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup;
 %% 6 model comparison (rest of the 5 models)
 data = load(fullfile(fullfile('../data',ver), 'bayes_2noise.mat')).(['bayes_data']);
 for mi = 2:6

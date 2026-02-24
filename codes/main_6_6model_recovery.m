@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup;
 %% simulate model recovery of simulaions of 6 behaviors
 % get simu
 data = load(fullfile('../data/all/bayes_2noise.mat')).(['bayes_data']);

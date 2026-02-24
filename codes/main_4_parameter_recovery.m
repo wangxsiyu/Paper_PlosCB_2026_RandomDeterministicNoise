@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup;
 %% load fitted params
 paramsub = load(fullfile(outputdir, [HBItest 'HBI_DetRanNoise_stat.mat'])).stats.mean;
 % param = load(fullfile(outputdir, [HBItest 'HBI_DetRanNoise_samples.mat'])).samples;

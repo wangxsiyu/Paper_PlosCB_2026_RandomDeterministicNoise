@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup;
 % wj.workingdir = 'C:\Users\Siyu_Wang\Documents\TEMP\JAGS2';
 %% full-grid parameter recovery (with only random noise and only deterministic noise)
 % % simulate behavior
