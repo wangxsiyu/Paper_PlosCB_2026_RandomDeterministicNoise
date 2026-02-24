@@ -1,4 +1,6 @@
 %% get version
+addpath(genpath('../codes_support/'));
+addpath(genpath('./functions'))
 ver = 'all';
 %%
 W.cd();
