@@ -1,4 +1,4 @@
-JAGS_setup_R1;
+main_0_setup;
 %% fit the 6 models
 data = importdata('../data/all/bayesdata.mat');
 for numi = 1:6
@@ -120,7 +120,9 @@ for wi = 1:3
     end
 end
 W.save('./Temp/6model_simudata_2cond', 'sgp', sgp, 'sgp1', sgp1)
-%%
+%% 
+load('./Temp/6model_simudata_2cond')
+%% posterior check with different simulation methods
 names = {'mean', 'dist', 'map'};
 for wi = 1:3
     tgp = struct;
