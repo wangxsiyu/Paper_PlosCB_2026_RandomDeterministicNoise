@@ -3,7 +3,7 @@ function plt = EEplot_random(plt, gp, col22, statside22)
         col22 = {'AZsand'};
     end
     if ~exist('statside22', 'var') || isempty(statside22)
-        statside22 = 'right';
+        statside22 = {'right', 'right'};
     end
     plt.setfig_ax('xlim', [0.5 2.5], 'xtick', [1 2], 'xticklabel', [1 6], ...
         'xlabel', 'horizon', 'ylabel', 'decision noise', 'legloc', 'NW');
