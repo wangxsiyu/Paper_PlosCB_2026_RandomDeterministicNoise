@@ -1,4 +1,4 @@
-JAGS_setup;
+main_0_setup
 %% main bayes
 files = {'bayes_2noise.mat', 'bayes_2noise_all.mat'};
 suffix = {'','_all'};
