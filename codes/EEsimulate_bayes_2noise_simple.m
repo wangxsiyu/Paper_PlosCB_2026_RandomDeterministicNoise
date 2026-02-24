@@ -14,7 +14,7 @@ function out = EEsimulate_bayes_2noise_simple(data, As, bs, nrans, ndets)
         dI = data.dI(si,1:nT)';
         repeatID = data.repeatID(si,1:nT)';
         horizon = data.horizon(si,1:nT)';
-        infocond = data.infocond(si, 1:nT)';
+        % infocond = data.infocond(si, 1:nT)';
         n_det = NaN(1, data.nrepeatID(si));
         for gi = 1:nT
             if nrans(horizon(gi), si) > 0
