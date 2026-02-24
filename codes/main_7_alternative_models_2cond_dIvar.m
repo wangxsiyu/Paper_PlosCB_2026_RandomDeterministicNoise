@@ -1,5 +1,5 @@
 %% test convergence
-JAGS_setup_R1;
+main_0_setup;
 nchains = 4; % How Many Chains?
 nburnin = 0; % How Many Burn-in Samples?
 nsamples = 5000; % How Many Recorded Samples?
@@ -26,7 +26,7 @@ for fi = 1:length(suffix)
     wj.run;
 end
 %% explained variance
-sp = W.load('../bayesoutput/allR1/HBI_DetRanNoiseR1_2cond_samples.mat');
+sp = W.load('../bayesoutput/all/HBI_DetRanNoiseR1_2cond_samples.mat');
 %% get explained variance
 det = []; ran = [];
 vardet = [];
