@@ -52,6 +52,8 @@ EEplot_2noise_modelcomparison(plt, gp, sgp);
 EEplot_2noise_modelcomparison1(plt, gp, sgp);
 %% model-free analysis validation
 W.unmuteprint()
+plt = W_plt('savedir', '../figures', 'savepfx', 'RDBayes', 'isshow', true, ...
+    'issave', true, 'extension',{'svg', 'jpg'});
 plt.set_pltsetting('savesfx','validation');
 plt.figure(1,2,'is_title',1);
 leg = {'random noise only', 'simulated data (random noise only)', 'deterministic noise only'};

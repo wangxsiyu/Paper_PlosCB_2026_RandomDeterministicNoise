@@ -1,5 +1,5 @@
 %% load fitted data
-st0 = W.load(fullfile('../bayesoutput/allR1', ['HBI_DetRanNoiseR1_stat']));
+st0 = W.load(fullfile('../bayesoutput/all', ['HBI_DetRanNoiseR1_stat']));
 st0 = st0.stats.mean;
 %% simulate data from fitted model
 st_shuffled = st0;
