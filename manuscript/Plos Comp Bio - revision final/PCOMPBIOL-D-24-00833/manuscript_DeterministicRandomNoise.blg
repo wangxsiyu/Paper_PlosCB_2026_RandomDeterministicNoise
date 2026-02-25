@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manuscript_DeterministicRandomNoise.aux
+The style file: plainnat.bst
+Database file #1: Refs/refs.bib
+Warning--empty journal in hbm1
+Warning--empty journal in matjags
+Warning--empty journal in Wilson2020
+You've used 38 entries,
+            2773 wiz_defined-function locations,
+            901 strings with 15748 characters,
+and the built_in function-call counts, 19125 in all, are:
+= -- 1768
+> -- 1147
+< -- 22
++ -- 388
+- -- 349
+* -- 1647
+:= -- 3043
+add.period$ -- 190
+call.type$ -- 38
+change.case$ -- 226
+chr.to.int$ -- 37
+cite$ -- 79
+duplicate$ -- 790
+empty$ -- 1450
+format.name$ -- 407
+if$ -- 3988
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 38
+newline$ -- 272
+num.names$ -- 156
+pop$ -- 364
+preamble$ -- 1
+purify$ -- 190
+quote$ -- 0
+skip$ -- 610
+stack$ -- 0
+substring$ -- 656
+swap$ -- 64
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 408
+warning$ -- 3
+while$ -- 150
+width$ -- 0
+write$ -- 638
+(There were 3 warnings)

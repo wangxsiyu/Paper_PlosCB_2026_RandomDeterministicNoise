@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  24 FEB 2026 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  24 FEB 2026 19:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**DetRanNoise_Supplementary.tex
-(./DetRanNoise_Supplementary.tex
+**manuscript_DeterministicRandomNoise.tex
+(./manuscript_DeterministicRandomNoise.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -705,104 +705,70 @@ Package: truncate 2001/08/20  ver 3.6
 \c@Changes@highlightCountbob=\count338
 \c@Changes@commentCountbob=\count339
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count340
-\c@Blindtext=\count341
-\c@blind@countparstart=\count342
-\blind@countxx=\count343
-\blindtext@numBlindtext=\count344
-\blind@countyy=\count345
-\c@blindlist=\count346
-\c@blindlistlevel=\count347
-\c@blindlist@level=\count348
-\blind@listitem=\count349
-\c@blind@listcount=\count350
-\c@blind@levelcount=\count351
-\blind@mathformula=\count352
-\blind@Mathformula=\count353
-\c@blind@randomcount=\count354
-\c@blind@randommax=\count355
-\c@blind@pangramcount=\count356
-\c@blind@pangrammax=\count357
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box69
-\beforetitleunit=\skip64
-\aftertitleunit=\skip65
-\ttl@plus=\dimen275
-\ttl@minus=\dimen276
-\ttl@toksa=\toks41
-\titlewidth=\dimen277
-\titlewidthlast=\dimen278
-\titlewidthfirst=\dimen279
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-0.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count340
+\l__pdf_internal_box=\box69
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+))
+\c@truncate=\count341
+\c@truncate@max=\count342
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+10.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count358
-\l__pdf_internal_box=\box70
-)
-(./DetRanNoise_Supplementary.aux
+(./manuscript_DeterministicRandomNoise.aux)
+\openout1 = `manuscript_DeterministicRandomNoise.aux'.
 
-LaTeX Warning: Label `fig:s8' multiply defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+Package hyperref Info: Link coloring OFF on input line 110.
 
-
-LaTeX Warning: Label `fig:s8' multiply defined.
-
-
-LaTeX Warning: Label `fig:paramrecover_sub' multiply defined.
-
-)
-\openout1 = `DetRanNoise_Supplementary.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-Package hyperref Info: Link coloring OFF on input line 70.
- (./DetRanNoise_Supplementary.out) (./DetRanNoise_Supplementary.out)
+(./manuscript_DeterministicRandomNoise.out)
+(./manuscript_DeterministicRandomNoise.out)
 \@outlinefile=\write4
-\openout4 = `DetRanNoise_Supplementary.out'.
+\openout4 = `manuscript_DeterministicRandomNoise.out'.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen280
-\scratchbox=\box71
-\nofMPsegments=\count360
-\nofMParguments=\count361
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen281
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count343
+\scratchdimen=\dimen275
+\scratchbox=\box70
+\nofMPsegments=\count344
+\nofMParguments=\count345
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count346
+\MPscratchDim=\dimen276
+\MPnumerator=\count347
+\makeMPintoPDFobject=\count348
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -820,241 +786,258 @@ Package caption Info: End \AtBeginDocument code.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 70.
+loading the todonotes package. on input line 110.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-1.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./DetRanNoise_Supplem
-entary.toc)
-\tf@toc=\write5
-\openout5 = `DetRanNoise_Supplementary.toc'.
-
-<figures/RanDetNoise_modelfree__all.jpg, id=88, 1238.6275pt x 1246.6575pt>
-File: figures/RanDetNoise_modelfree__all.jpg Graphic file (type jpg)
-<use figures/RanDetNoise_modelfree__all.jpg>
-Package pdftex.def Info: figures/RanDetNoise_modelfree__all.jpg  used on input 
-line 79.
-(pdftex.def)             Requested size: 505.89pt x 509.17358pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-0.
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+Package hyperref Info: bookmark level for unknown added defaults to 0 on input 
+line 120.
+Package hyperref Info: bookmark level for unknown deleted defaults to 0 on inpu
+t line 120.
+ [3] [4] [5]
+Package epstopdf Info: Source file: <Fig1.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 2399094 bytes
+(epstopdf)             Output file: <Fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:28:11
+(epstopdf)                    size: 54113 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig1-eps-converted-to.pdf 
+Fig1.eps>
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
+<Fig1-eps-converted-to.pdf, id=104, 1012.78375pt x 918.43124pt>
+File: Fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig1-eps-converted-to.pdf  used on input line 145.
+(pdftex.def)             Requested size: 505.89pt x 458.75203pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+48.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [2]
-Overfull \vbox (53.69576pt too high) has occurred while \output is active []
-
-
-[3 <./figures/RanDetNoise_modelfree__all.jpg>]
-<figures/RanDetNoise_pinconsistent__all.jpg, id=103, 1238.6275pt x 666.49pt>
-File: figures/RanDetNoise_pinconsistent__all.jpg Graphic file (type jpg)
-<use figures/RanDetNoise_pinconsistent__all.jpg>
-Package pdftex.def Info: figures/RanDetNoise_pinconsistent__all.jpg  used on in
-put line 89.
-(pdftex.def)             Requested size: 505.89pt x 272.21518pt.
- [4 <./figures/RanDetNoise_pinconsistent__all.jpg>]
-<figures/RDBayes_pinconsistent_validation.jpg, id=109, 1238.6275pt x 666.49pt>
-File: figures/RDBayes_pinconsistent_validation.jpg Graphic file (type jpg)
-<use figures/RDBayes_pinconsistent_validation.jpg>
-Package pdftex.def Info: figures/RDBayes_pinconsistent_validation.jpg  used on 
-input line 100.
-(pdftex.def)             Requested size: 505.89pt x 272.21518pt.
- [5 <./figures/RDBayes_pinconsistent_validation.jpg>]
-<figures/RDBayes_reduced_model.jpg, id=116, 1254.6875pt x 1246.6575pt>
-File: figures/RDBayes_reduced_model.jpg Graphic file (type jpg)
-<use figures/RDBayes_reduced_model.jpg>
-Package pdftex.def Info: figures/RDBayes_reduced_model.jpg  used on input line 
-114.
-(pdftex.def)             Requested size: 505.89pt x 502.64888pt.
-
-[6] [7 <./figures/RDBayes_reduced_model.jpg>]
-<figures/RDBayes_parameterrecovery_hyperprior_v2.jpg, id=134, 1850.915pt x 1246
-.6575pt>
-File: figures/RDBayes_parameterrecovery_hyperprior_v2.jpg Graphic file (type jp
-g)
-<use figures/RDBayes_parameterrecovery_hyperprior_v2.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_hyperprior_v2.jpg  u
-sed on input line 125.
-(pdftex.def)             Requested size: 505.89pt x 340.72989pt.
- [8]
-<figures/RDBayes_parameterrecovery_hyperprior.jpg, id=141, 1850.915pt x 1246.65
-75pt>
-File: figures/RDBayes_parameterrecovery_hyperprior.jpg Graphic file (type jpg)
-<use figures/RDBayes_parameterrecovery_hyperprior.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_hyperprior.jpg  used
- on input line 133.
-(pdftex.def)             Requested size: 505.89pt x 340.72989pt.
- [9 <./figures/RDBayes_parameterrecovery_hyperprior_v2.jpg>] [10 <./figures/RDB
-ayes_parameterrecovery_hyperprior.jpg>]
-<figures/RDBayes_parameterrecovery_subject_examplesession.jpg, id=156, 1045.907
-5pt x 2032.59375pt>
-File: figures/RDBayes_parameterrecovery_subject_examplesession.jpg Graphic file
- (type jpg)
-<use figures/RDBayes_parameterrecovery_subject_examplesession.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_subject_examplesessi
-on.jpg  used on input line 147.
-(pdftex.def)             Requested size: 328.82541pt x 639.02983pt.
-
-
-LaTeX Warning: Float too large for page by 51.11864pt on input line 151.
-
-<figures/RDBayes_parameterrecovery_subject.jpg, id=157, 1045.9075pt x 2032.5937
-5pt>
-File: figures/RDBayes_parameterrecovery_subject.jpg Graphic file (type jpg)
-<use figures/RDBayes_parameterrecovery_subject.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_subject.jpg  used on
- input line 155.
-(pdftex.def)             Requested size: 328.82541pt x 639.02983pt.
-
-LaTeX Warning: Float too large for page by 30.71863pt on input line 159.
-
-[11] [12 <./figures/RDBayes_parameterrecovery_subject_examplesession.jpg>]
-[13 <./figures/RDBayes_parameterrecovery_subject.jpg>]
-<figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg, id=182, 1238.6275pt x 1
-285.80376pt>
-File: figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg Graphic file (type 
-jpg)
-<use figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg 
- used on input line 172.
-(pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [14]
-<figures/RDBayes_parameterrecovery_gridsimu_all.jpg, id=190, 2336.73pt x 1709.3
-8625pt>
-File: figures/RDBayes_parameterrecovery_gridsimu_all.jpg Graphic file (type jpg
 )
-<use figures/RDBayes_parameterrecovery_gridsimu_all.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_gridsimu_all.jpg  us
-ed on input line 181.
-(pdftex.def)             Requested size: 505.89pt x 370.06703pt.
-<figures/RDBayes_hyperprior__all.jpg, id=191, 1238.6275pt x 1285.80376pt>
-File: figures/RDBayes_hyperprior__all.jpg Graphic file (type jpg)
-<use figures/RDBayes_hyperprior__all.jpg>
-Package pdftex.def Info: figures/RDBayes_hyperprior__all.jpg  used on input lin
-e 191.
-(pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [15 <./figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg>] [16 <./figures/
-RDBayes_parameterrecovery_gridsimu_all.jpg>] [17 <./figures/RDBayes_hyperprior_
-_all.jpg>]
-<figures/R1_hyperprior.jpg, id=205, 1238.6275pt x 1583.9175pt>
-File: figures/R1_hyperprior.jpg Graphic file (type jpg)
-<use figures/R1_hyperprior.jpg>
-Package pdftex.def Info: figures/R1_hyperprior.jpg  used on input line 201.
-(pdftex.def)             Requested size: 354.12144pt x 452.84714pt.
- [18 <./figures/R1_hyperprior.jpg>]
-<figures/R1_hyperprior_dIvar.jpg, id=211, 1238.6275pt x 1285.80376pt>
-File: figures/R1_hyperprior_dIvar.jpg Graphic file (type jpg)
-<use figures/R1_hyperprior_dIvar.jpg>
-Package pdftex.def Info: figures/R1_hyperprior_dIvar.jpg  used on input line 21
-1.
-(pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [19 <./figures/R1_hyperprior_dIvar.jpg>]
-<figures/R1_shuffle_shuffled_recovery.jpg, id=218, 1242.6425pt x 1285.80376pt>
-File: figures/R1_shuffle_shuffled_recovery.jpg Graphic file (type jpg)
-<use figures/R1_shuffle_shuffled_recovery.jpg>
-Package pdftex.def Info: figures/R1_shuffle_shuffled_recovery.jpg  used on inpu
-t line 222.
-(pdftex.def)             Requested size: 328.82541pt x 340.24588pt.
- [20 <./figures/R1_shuffle_shuffled_recovery.jpg>]
-<figures/RDBayes_2noise_hyperpriors_6model.jpg, id=224, 1412.27625pt x 2039.62p
-t>
-File: figures/RDBayes_2noise_hyperpriors_6model.jpg Graphic file (type jpg)
-<use figures/RDBayes_2noise_hyperpriors_6model.jpg>
-Package pdftex.def Info: figures/RDBayes_2noise_hyperpriors_6model.jpg  used on
- input line 260.
-(pdftex.def)             Requested size: 404.71353pt x 584.4722pt.
-<figures/RDBayes_2noise_hyperprior_6model_recovery.jpg, id=228, 1412.27625pt x 
-2039.62pt>
-File: figures/RDBayes_2noise_hyperprior_6model_recovery.jpg Graphic file (type 
-jpg)
-<use figures/RDBayes_2noise_hyperprior_6model_recovery.jpg>
-Package pdftex.def Info: figures/RDBayes_2noise_hyperprior_6model_recovery.jpg 
- used on input line 270.
-(pdftex.def)             Requested size: 404.71353pt x 584.4722pt.
- [21] [22 <./figures/RDBayes_2noise_hyperpriors_6model.jpg>]
-Overfull \vbox (37.36102pt too high) has occurred while \output is active []
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 148.
+ [6] [7 <./Fig1-eps-converted-to.pdf>] [8]
+Overfull \hbox (2.41367pt too wide) in paragraph at lines 167--168
+[]\OT1/ptm/m/n/12 Directed ex-plo-ration is quan-ti-fied as the prob-a-bil-ity 
+of choos-ing the more in-for-ma-tive op-tion $\OML/cmm/m/it/12 p\OT1/cmr/m/n/12
+ ([])$
+ []
 
 
-[23 <./figures/RDBayes_2noise_hyperprior_6model_recovery.jpg>]
-<figures/R1_2noise_6modelcomparison_dist.jpg, id=246, 1421.31pt x 2046.64626pt>
+LaTeX Warning: Marginpar on page 9 moved.
 
-File: figures/R1_2noise_6modelcomparison_dist.jpg Graphic file (type jpg)
-<use figures/R1_2noise_6modelcomparison_dist.jpg>
-Package pdftex.def Info: figures/R1_2noise_6modelcomparison_dist.jpg  used on i
-nput line 287.
-(pdftex.def)             Requested size: 404.71353pt x 582.76935pt.
+Package epstopdf Info: Source file: <Fig2.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 3187106 bytes
+(epstopdf)             Output file: <Fig2-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:28:35
+(epstopdf)                    size: 28433 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig2-eps-converted-to.pdf 
+Fig2.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+<Fig2-eps-converted-to.pdf, id=158, 1189.44376pt x 1196.47pt>
+File: Fig2-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig2-eps-converted-to.pdf>
+Package pdftex.def Info: Fig2-eps-converted-to.pdf  used on input line 183.
+(pdftex.def)             Requested size: 505.89pt x 508.8673pt.
+[9] [10 <./Fig2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig3.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 1821138 bytes
+(epstopdf)             Output file: <Fig3-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:28:56
+(epstopdf)                    size: 19516 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig3-eps-converted-to.pdf 
+Fig3.eps>
+(epstopdf)             \includegraphics on input line 208.
+Package epstopdf Info: Output file is already uptodate.
+<Fig3-eps-converted-to.pdf, id=187, 1189.44376pt x 639.38875pt>
+File: Fig3-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig3-eps-converted-to.pdf>
+Package pdftex.def Info: Fig3-eps-converted-to.pdf  used on input line 208.
+(pdftex.def)             Requested size: 505.89pt x 271.93661pt.
+ [11] [12 <./Fig3-eps-converted-to.pdf>]
+[13] [14]
+Package epstopdf Info: Source file: <Fig4.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 3222778 bytes
+(epstopdf)             Output file: <Fig4-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:29:28
+(epstopdf)                    size: 232677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig4-eps-converted-to.pdf 
+Fig4.eps>
+(epstopdf)             \includegraphics on input line 261.
+Package epstopdf Info: Output file is already uptodate.
+<Fig4-eps-converted-to.pdf, id=245, 1045.9075pt x 1052.93375pt>
+File: Fig4-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig4-eps-converted-to.pdf>
+Package pdftex.def Info: Fig4-eps-converted-to.pdf  used on input line 261.
+(pdftex.def)             Requested size: 480.59395pt x 483.82521pt.
+ [15 <./Fig4-eps-converted-to.pdf>] [16]
+Package epstopdf Info: Source file: <Fig5.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 3702394 bytes
+(epstopdf)             Output file: <Fig5-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:29:57
+(epstopdf)                    size: 116880 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig5-eps-converted-to.pdf 
+Fig5.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+<Fig5-eps-converted-to.pdf, id=268, 1189.44376pt x 1234.6125pt>
+File: Fig5-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig5-eps-converted-to.pdf>
+Package pdftex.def Info: Fig5-eps-converted-to.pdf  used on input line 284.
+(pdftex.def)             Requested size: 505.89pt x 525.08957pt.
+ [17]
+Package epstopdf Info: Source file: <Fig6.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 1023930 bytes
+(epstopdf)             Output file: <Fig6-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:29:57
+(epstopdf)                    size: 22350 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig6-eps-converted-to.pdf 
+Fig6.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+<Fig6-eps-converted-to.pdf, id=277, 602.25pt x 602.25pt>
+File: Fig6-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig6-eps-converted-to.pdf>
+Package pdftex.def Info: Fig6-eps-converted-to.pdf  used on input line 293.
+(pdftex.def)             Requested size: 252.94499pt x 252.94327pt.
+ [18 <./Fig5-eps-converted-to.pdf>] [19 <./Fig6-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig7.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 3498662 bytes
+(epstopdf)             Output file: <Fig7-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:30:16
+(epstopdf)                    size: 59967 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig7-eps-converted-to.pdf 
+Fig7.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+<Fig7-eps-converted-to.pdf, id=309, 2363.83125pt x 639.38875pt>
+File: Fig7-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig7-eps-converted-to.pdf>
+Package pdftex.def Info: Fig7-eps-converted-to.pdf  used on input line 309.
+(pdftex.def)             Requested size: 505.89pt x 136.83174pt.
+ [20 <./Fig7-eps-converted-to.pdf>] [21] [22] [23] [24]
+Overfull \hbox (30.33153pt too wide) in paragraph at lines 501--534
+[][] 
+ []
 
+[25]
+Package epstopdf Info: Source file: <Fig8.eps>
+(epstopdf)                    date: 2026-02-24 17:37:36
+(epstopdf)                    size: 2416082 bytes
+(epstopdf)             Output file: <Fig8-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-02-24 19:31:09
+(epstopdf)                    size: 183517 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig8-eps-converted-to.pdf 
+Fig8.eps>
+(epstopdf)             \includegraphics on input line 545.
+Package epstopdf Info: Output file is already uptodate.
+<Fig8-eps-converted-to.pdf, id=422, 725.71124pt x 376.40625pt>
+File: Fig8-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig8-eps-converted-to.pdf>
+Package pdftex.def Info: Fig8-eps-converted-to.pdf  used on input line 545.
+(pdftex.def)             Requested size: 505.89pt x 262.39705pt.
+ [26]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
+52.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (20.28484pt too wide) in paragraph at lines 552--553
+\OT1/ptm/m/n/12 able upon pub-li-ca-tion at []$\OT1/pcr/m/n/12 https : / / gith
+ub . com / wangxsiyu / RW _ RandomDeterministicNoise .
+ []
 
-LaTeX Warning: Float too large for page by 15.25816pt on input line 292.
+[27 <./Fig8-eps-converted-to.pdf>]
 
-[24] [25 <./figures/R1_2noise_6modelcomparison_dist.jpg>]
-<figures/R1_2noise_6modelcomparison_map.jpg, id=259, 1421.31pt x 2046.64626pt>
-File: figures/R1_2noise_6modelcomparison_map.jpg Graphic file (type jpg)
-<use figures/R1_2noise_6modelcomparison_map.jpg>
-Package pdftex.def Info: figures/R1_2noise_6modelcomparison_map.jpg  used on in
-put line 299.
-(pdftex.def)             Requested size: 404.71353pt x 582.76935pt.
+Package hyperref Warning: Suppressing empty link on input line 593.
 
+[28] [29] (./manuscript_DeterministicRandomNoise.bbl [30]
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+\OT1/pcr/m/n/12 nips . cc / paper / 4321-[]an-[]empirical-[]evaluation-[]of-[]t
+hompson-[]sampling .
+ []
 
-LaTeX Warning: Float too large for page by 15.25816pt on input line 304.
+[31]
+Underfull \hbox (badness 2165) in paragraph at lines 99--106
+\OT1/ptm/m/n/12 0893-6080.  doi: $https : / / doi . org / 10 . 1016 / S0893-[]6
+080(02 ) 00044-[]8$.  URL []$\OT1/pcr/m/n/12 https : / / www .
+ []
 
-\Changes@OutFile=\write6
-\openout6 = `DetRanNoise_Supplementary.soc'.
+[32]
+Underfull \hbox (badness 2213) in paragraph at lines 193--202
+\OT1/ptm/m/n/12 of \OT1/ptm/m/it/12 Progress in Brain Re-search\OT1/ptm/m/n/12 
+, pages 441--464. El-se-vier, 2013.  doi: $https : / / doi . org / 10 .
+ []
 
-\tf@loc=\write7
-\openout7 = `DetRanNoise_Supplementary.loc'.
+[33] [34] [35]) [36]
+\Changes@OutFile=\write5
+\openout5 = `manuscript_DeterministicRandomNoise.soc'.
 
-[26] [27 <./figures/R1_2noise_6modelcomparison_map.jpg>]
-(./DetRanNoise_Supplementary.aux)
+\tf@loc=\write6
+\openout6 = `manuscript_DeterministicRandomNoise.loc'.
+
+ (./manuscript_DeterministicRandomNoise.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
+L3 programming layer <2020/03/25>
  ***********
+Package rerunfilecheck Info: File `manuscript_DeterministicRandomNoise.out' has
+ not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred inside a group at level 1)
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `DetRanNoise_Supplementary.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: A31ACA246774174AA689558E9E4FE78D;5219.
- ) 
+### simple group (level 1) entered at line 126 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 24065 strings out of 474116
- 448061 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 45942 multiletter control sequences out of 15000+600000
- 582957 words of font info for 93 fonts, out of 8000000 for 9000
+ 24262 strings out of 474116
+ 451103 string characters out of 5743682
+ 1960187 words of memory out of 5000000
+ 46029 multiletter control sequences out of 15000+600000
+ 591565 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,115p,2049b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ 114i,16n,115p,2025b,1200s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on DetRanNoise_Supplementary.pdf (27 pages, 4022036 bytes).
+xlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on manuscript_DeterministicRandomNoise.pdf (36 pages, 963233 byt
+es).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 642 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
