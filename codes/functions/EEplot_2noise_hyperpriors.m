@@ -35,5 +35,4 @@ function EEplot_2noise_hyperpriors(plt, sp, stepsize)
         plot([0 0],ylm, '--k','LineWidth', plt.param_plt.linewidth/2);
         hold off;
     end
-    plt.update('hyperprior');
 end

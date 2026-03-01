@@ -32,5 +32,4 @@ function EEplot_2noise_modelcomparison1(plt, gp, simugp)
         plt.setfig_ax('legend',{'\sigma^{ran} only','model','data'});
 %         plt.setfig_ax('legend',{'data','model'});
     end
-    plt.update('2noise_modelA');
 end

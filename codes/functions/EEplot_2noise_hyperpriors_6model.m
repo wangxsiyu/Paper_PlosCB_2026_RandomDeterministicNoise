@@ -58,5 +58,4 @@ function EEplot_2noise_hyperpriors_6model(plt, sp)
             plt.dashY(0,[0,ymax]);
         end
     end
-    plt.update('2noise_hyperpriors_6model');
 end

@@ -39,5 +39,4 @@ function EEplot_2noise_hyperpriors_2cond(plt, sp, stepsize)
             hold off;
         end
     end
-    plt.update('hyperprior');
 end

@@ -27,5 +27,4 @@ function plt = EEplot_2noise_reduced(plt, sp)
 %             plt.dashY(0, [0 ymax])
         end
     end
-    plt.update('reduced_model');
 end

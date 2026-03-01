@@ -57,7 +57,6 @@ function plt = plot_det_vs_ran(plt, st1, st2)
         % plt.setfig_ax('xlabel', 'Recovered Random', 'ylabel', 'Recovered Deterministic', 'title', str);
 
     
-    plt.update('shuffled_recovery');
 end
     % for ci = 1:2
     %     for hi = 1:2

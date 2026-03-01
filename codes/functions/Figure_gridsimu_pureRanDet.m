@@ -32,5 +32,4 @@ function Figure_gridsimu_pureRanDet(plt, sp, rans)
     hold on;
     plt.plot(1:11,0:10, [],'line', 'linestyle', '*', 'color', plt.str2color('AZsand'));
     plt.setfig_ax('xticklabel', 0:10);
-    plt.update('parameterrecovery_grid_pureRanDet');
 end

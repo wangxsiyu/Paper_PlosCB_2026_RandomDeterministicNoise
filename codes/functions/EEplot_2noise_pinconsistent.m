@@ -32,5 +32,4 @@ function plt = EEplot_2noise_pinconsistent(plt, gp, ver13, ver22, strpfx)
         W.print('ran13: %g,%g, t:%g,%g', gp.([strpfx 'GPpvalue_p_inconsistent13_vs_p_inconsistent13_randomtheory' ver13]), gp.([strpfx 'GPtstat_p_inconsistent13_vs_p_inconsistent13_randomtheory' ver13]));
         W.print('ran22: %g,%g, t:%g,%g', gp.([strpfx 'GPpvalue_p_inconsistent22_vs_p_inconsistent22_randomtheory' ver22]), gp.([strpfx 'GPtstat_p_inconsistent22_vs_p_inconsistent22_randomtheory' ver22]));
     end
-    plt.update('pinconsistent');
 end

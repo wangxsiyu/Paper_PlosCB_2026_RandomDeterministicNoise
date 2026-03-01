@@ -39,5 +39,4 @@ function EEplot_2noise_hyperprior_6model_recovery(plt, sp)
             plt.dashY(0, [0 ymax])
         end
     end
-    plt.update('2noise_hyperprior_6model_recovery');
 end

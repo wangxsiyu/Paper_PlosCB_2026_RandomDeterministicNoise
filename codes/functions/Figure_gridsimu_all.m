@@ -1,4 +1,7 @@
-function Figure_gridsimu_all(plt, rdsp, rans)
+function Figure_gridsimu_all(plt, rdsp, rans, savename)
+if ~exist('savename', 'var') 
+    savename = '';
+end
 %% all levels
 W.library('tools_violin');
 plt.figure(11,2, 'pixel_gap_h',13, 'pixel_h', 30, ...
@@ -43,5 +46,5 @@ for i = 1:2
         plt.dashX(jj)
     end
 end
-plt.update('parameterrecovery_gridsimu_all', 'AB                                                     ');
+plt.update(savename, 'AB                                                     ');
 end

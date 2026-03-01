@@ -154,12 +154,12 @@ classdef W_analysis_MLE < handle
             p_value = 1./(1 + exp(-q/noise));
             p = p_value * (1-lapse1-lapse2) + lapse1;
             p(choice == 0) = 1 - p(choice == 0);
-            logp = log(p);
-            logp = logp(~isnan(logp));
-            if any(abs(logp) == Inf)
-                logp = logp(abs(logp) < Inf); % this may lead to issues, need to look into this later
-%                 W.warning('undefined at initial point, remove -Inf');
-            end
+            logp = log(p + 1e-6);
+%             logp = logp(~isnan(logp));
+%             if any(abs(logp) == Inf)
+%                 logp = logp(abs(logp) < Inf); % this may lead to issues, need to look into this later
+% %                 W.warning('undefined at initial point, remove -Inf');
+%             end
             LL = sum(logp);
         end
     end
