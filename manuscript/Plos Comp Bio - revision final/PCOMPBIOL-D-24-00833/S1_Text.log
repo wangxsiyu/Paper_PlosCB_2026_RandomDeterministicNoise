@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.12.10)  28 FEB 2026 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.12.10)  1 MAR 2026 03:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,7 +822,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthfirst=\dimen277
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-0.
+8.
 
 (C:\Users\Siyu Wang\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -832,38 +832,28 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
 \l__pdf_internal_box=\box70
-) (S1_Text.aux
-
-LaTeX Warning: Label `fig:s8' multiply defined.
-
-
-LaTeX Warning: Label `fig:s8' multiply defined.
-
-
-LaTeX Warning: Label `fig:paramrecover_sub' multiply defined.
-
-)
+) (S1_Text.aux)
 \openout1 = `S1_Text.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-Package hyperref Info: Link coloring OFF on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+Package hyperref Info: Link coloring OFF on input line 78.
  (S1_Text.out) (S1_Text.out)
 \@outlinefile=\write4
 \openout4 = `S1_Text.out'.
@@ -902,24 +892,18 @@ Package caption Info: End \AtBeginDocument code.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 70.
+loading the todonotes package. on input line 78.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
 
 (C:\Users\Siyu Wang\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 
 
 (C:\Users\Siyu Wang\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-1.
-
-(C:\Users\Siyu Wang\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [1
 
@@ -928,174 +912,94 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 \tf@toc=\write5
 \openout5 = `S1_Text.toc'.
 
-<figures/RanDetNoise_modelfree__all.jpg, id=87, 1238.6275pt x 1246.6575pt>
-File: figures/RanDetNoise_modelfree__all.jpg Graphic file (type jpg)
-<use figures/RanDetNoise_modelfree__all.jpg>
-Package pdftex.def Info: figures/RanDetNoise_modelfree__all.jpg  used on input 
-line 79.
-(pdftex.def)             Requested size: 505.89pt x 509.17358pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-0.
+ [2]
+<SFigs/S4_fig.jpg, id=64, 1254.6875pt x 1247.66125pt>
+File: SFigs/S4_fig.jpg Graphic file (type jpg)
+<use SFigs/S4_fig.jpg>
+Package pdftex.def Info: SFigs/S4_fig.jpg  used on input line 91.
+(pdftex.def)             Requested size: 505.89pt x 503.05359pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9
+2.
 
 (C:\Users\Siyu Wang\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-[2]
-Overfull \vbox (53.69576pt too high) has occurred while \output is active []
-
-
-[3 <./figures/RanDetNoise_modelfree__all.jpg>]
-<figures/RanDetNoise_pinconsistent__all.jpg, id=102, 1238.6275pt x 666.49pt>
-File: figures/RanDetNoise_pinconsistent__all.jpg Graphic file (type jpg)
-<use figures/RanDetNoise_pinconsistent__all.jpg>
-Package pdftex.def Info: figures/RanDetNoise_pinconsistent__all.jpg  used on in
-put line 89.
-(pdftex.def)             Requested size: 505.89pt x 272.21518pt.
- [4 <./figures/RanDetNoise_pinconsistent__all.jpg>]
-<figures/RDBayes_pinconsistent_validation.jpg, id=108, 1238.6275pt x 666.49pt>
-File: figures/RDBayes_pinconsistent_validation.jpg Graphic file (type jpg)
-<use figures/RDBayes_pinconsistent_validation.jpg>
-Package pdftex.def Info: figures/RDBayes_pinconsistent_validation.jpg  used on 
-input line 100.
-(pdftex.def)             Requested size: 505.89pt x 272.21518pt.
- [5 <./figures/RDBayes_pinconsistent_validation.jpg>]
-<figures/RDBayes_reduced_model.jpg, id=115, 1254.6875pt x 1246.6575pt>
-File: figures/RDBayes_reduced_model.jpg Graphic file (type jpg)
-<use figures/RDBayes_reduced_model.jpg>
-Package pdftex.def Info: figures/RDBayes_reduced_model.jpg  used on input line 
-114.
-(pdftex.def)             Requested size: 505.89pt x 502.64888pt.
-
-[6] [7 <./figures/RDBayes_reduced_model.jpg>]
-<figures/RDBayes_parameterrecovery_hyperprior_v2.jpg, id=133, 1850.915pt x 1246
-.6575pt>
-File: figures/RDBayes_parameterrecovery_hyperprior_v2.jpg Graphic file (type jp
-g)
-<use figures/RDBayes_parameterrecovery_hyperprior_v2.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_hyperprior_v2.jpg  u
-sed on input line 125.
-(pdftex.def)             Requested size: 505.89pt x 340.72989pt.
- [8]
-<figures/RDBayes_parameterrecovery_hyperprior.jpg, id=140, 1850.915pt x 1246.65
-75pt>
-File: figures/RDBayes_parameterrecovery_hyperprior.jpg Graphic file (type jpg)
-<use figures/RDBayes_parameterrecovery_hyperprior.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_hyperprior.jpg  used
- on input line 133.
-(pdftex.def)             Requested size: 505.89pt x 340.72989pt.
- [9 <./figures/RDBayes_parameterrecovery_hyperprior_v2.jpg>] [10 <./figures/RDB
-ayes_parameterrecovery_hyperprior.jpg>]
-<figures/RDBayes_parameterrecovery_subject_examplesession.jpg, id=155, 1045.907
-5pt x 2032.59375pt>
-File: figures/RDBayes_parameterrecovery_subject_examplesession.jpg Graphic file
- (type jpg)
-<use figures/RDBayes_parameterrecovery_subject_examplesession.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_subject_examplesessi
-on.jpg  used on input line 147.
+[3] [4 <./SFigs/S4_fig.jpg>]
+<SFigs/S5_fig.jpg, id=83, 1850.915pt x 1247.66125pt>
+File: SFigs/S5_fig.jpg Graphic file (type jpg)
+<use SFigs/S5_fig.jpg>
+Package pdftex.def Info: SFigs/S5_fig.jpg  used on input line 103.
+(pdftex.def)             Requested size: 505.89pt x 341.00423pt.
+ [5]
+<SFigs/S6_fig.jpg, id=90, 1850.915pt x 1247.66125pt>
+File: SFigs/S6_fig.jpg Graphic file (type jpg)
+<use SFigs/S6_fig.jpg>
+Package pdftex.def Info: SFigs/S6_fig.jpg  used on input line 111.
+(pdftex.def)             Requested size: 505.89pt x 341.00423pt.
+ [6 <./SFigs/S5_fig.jpg>] [7 <./SFigs/S6_fig.jpg>]
+<SFigs/S7_fig.jpg, id=105, 1045.9075pt x 2032.59375pt>
+File: SFigs/S7_fig.jpg Graphic file (type jpg)
+<use SFigs/S7_fig.jpg>
+Package pdftex.def Info: SFigs/S7_fig.jpg  used on input line 125.
 (pdftex.def)             Requested size: 328.82541pt x 639.02983pt.
 
 
-LaTeX Warning: Float too large for page by 51.11864pt on input line 151.
+LaTeX Warning: Float too large for page by 51.11864pt on input line 129.
 
-<figures/RDBayes_parameterrecovery_subject.jpg, id=156, 1045.9075pt x 2032.5937
-5pt>
-File: figures/RDBayes_parameterrecovery_subject.jpg Graphic file (type jpg)
-<use figures/RDBayes_parameterrecovery_subject.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_subject.jpg  used on
- input line 155.
+<SFigs/S8_fig.jpg, id=106, 1045.9075pt x 2032.59375pt>
+File: SFigs/S8_fig.jpg Graphic file (type jpg)
+<use SFigs/S8_fig.jpg>
+Package pdftex.def Info: SFigs/S8_fig.jpg  used on input line 133.
 (pdftex.def)             Requested size: 328.82541pt x 639.02983pt.
 
-LaTeX Warning: Float too large for page by 30.71863pt on input line 159.
+LaTeX Warning: Float too large for page by 30.71863pt on input line 137.
 
-[11] [12 <./figures/RDBayes_parameterrecovery_subject_examplesession.jpg>]
-[13 <./figures/RDBayes_parameterrecovery_subject.jpg>]
-<figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg, id=180, 1238.6275pt x 1
-285.80376pt>
-File: figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg Graphic file (type 
-jpg)
-<use figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg 
- used on input line 172.
+[8] [9 <./SFigs/S7_fig.jpg>] [10 <./SFigs/S8_fig.jpg>]
+<SFigs/S9_fig.jpg, id=128, 1238.6275pt x 1285.80376pt>
+File: SFigs/S9_fig.jpg Graphic file (type jpg)
+<use SFigs/S9_fig.jpg>
+Package pdftex.def Info: SFigs/S9_fig.jpg  used on input line 146.
 (pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [14]
-<figures/RDBayes_parameterrecovery_gridsimu_all.jpg, id=188, 2336.73pt x 1709.3
-8625pt>
-File: figures/RDBayes_parameterrecovery_gridsimu_all.jpg Graphic file (type jpg
-)
-<use figures/RDBayes_parameterrecovery_gridsimu_all.jpg>
-Package pdftex.def Info: figures/RDBayes_parameterrecovery_gridsimu_all.jpg  us
-ed on input line 181.
+ [11]
+<SFigs/S10_fig.jpg, id=136, 2336.73pt x 1709.38625pt>
+File: SFigs/S10_fig.jpg Graphic file (type jpg)
+<use SFigs/S10_fig.jpg>
+Package pdftex.def Info: SFigs/S10_fig.jpg  used on input line 155.
 (pdftex.def)             Requested size: 505.89pt x 370.06703pt.
-<figures/RDBayes_hyperprior__all.jpg, id=189, 1238.6275pt x 1285.80376pt>
-File: figures/RDBayes_hyperprior__all.jpg Graphic file (type jpg)
-<use figures/RDBayes_hyperprior__all.jpg>
-Package pdftex.def Info: figures/RDBayes_hyperprior__all.jpg  used on input lin
-e 191.
-(pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [15 <./figures/RDBayes_parameterrecovery_grid_pureRanDet.jpg>] [16 <./figures/
-RDBayes_parameterrecovery_gridsimu_all.jpg>] [17 <./figures/RDBayes_hyperprior_
-_all.jpg>]
-<figures/R1_hyperprior.jpg, id=203, 1238.6275pt x 1583.9175pt>
-File: figures/R1_hyperprior.jpg Graphic file (type jpg)
-<use figures/R1_hyperprior.jpg>
-Package pdftex.def Info: figures/R1_hyperprior.jpg  used on input line 201.
-(pdftex.def)             Requested size: 354.12144pt x 452.84714pt.
- [18 <./figures/R1_hyperprior.jpg>]
-<figures/R1_hyperprior_dIvar.jpg, id=209, 1238.6275pt x 1285.80376pt>
-File: figures/R1_hyperprior_dIvar.jpg Graphic file (type jpg)
-<use figures/R1_hyperprior_dIvar.jpg>
-Package pdftex.def Info: figures/R1_hyperprior_dIvar.jpg  used on input line 21
-1.
-(pdftex.def)             Requested size: 354.12144pt x 367.61545pt.
- [19 <./figures/R1_hyperprior_dIvar.jpg>]
-<figures/R1_shuffle_shuffled_recovery.jpg, id=216, 1242.6425pt x 1285.80376pt>
-File: figures/R1_shuffle_shuffled_recovery.jpg Graphic file (type jpg)
-<use figures/R1_shuffle_shuffled_recovery.jpg>
-Package pdftex.def Info: figures/R1_shuffle_shuffled_recovery.jpg  used on inpu
-t line 222.
-(pdftex.def)             Requested size: 328.82541pt x 340.24588pt.
- [20 <./figures/R1_shuffle_shuffled_recovery.jpg>]
-<figures/RDBayes_2noise_hyperpriors_6model.jpg, id=222, 1412.27625pt x 2039.62p
-t>
-File: figures/RDBayes_2noise_hyperpriors_6model.jpg Graphic file (type jpg)
-<use figures/RDBayes_2noise_hyperpriors_6model.jpg>
-Package pdftex.def Info: figures/RDBayes_2noise_hyperpriors_6model.jpg  used on
- input line 260.
+ [12 <./SFigs/S9_fig.jpg>] [13 <./SFigs/S10_fig.jpg>]
+<SFigs/S15_fig.jpg, id=148, 1412.27625pt x 2039.62pt>
+File: SFigs/S15_fig.jpg Graphic file (type jpg)
+<use SFigs/S15_fig.jpg>
+Package pdftex.def Info: SFigs/S15_fig.jpg  used on input line 194.
 (pdftex.def)             Requested size: 404.71353pt x 584.4722pt.
-<figures/RDBayes_2noise_hyperprior_6model_recovery.jpg, id=226, 1412.27625pt x 
-2039.62pt>
-File: figures/RDBayes_2noise_hyperprior_6model_recovery.jpg Graphic file (type 
-jpg)
-<use figures/RDBayes_2noise_hyperprior_6model_recovery.jpg>
-Package pdftex.def Info: figures/RDBayes_2noise_hyperprior_6model_recovery.jpg 
- used on input line 270.
+<SFigs/S16_fig.jpg, id=152, 1412.27625pt x 2039.62pt>
+File: SFigs/S16_fig.jpg Graphic file (type jpg)
+<use SFigs/S16_fig.jpg>
+Package pdftex.def Info: SFigs/S16_fig.jpg  used on input line 205.
 (pdftex.def)             Requested size: 404.71353pt x 584.4722pt.
- [21] [22 <./figures/RDBayes_2noise_hyperpriors_6model.jpg>]
-Overfull \vbox (37.36102pt too high) has occurred while \output is active []
+ [14] [15 <./SFigs/S15_fig.jpg>]
+Overfull \vbox (57.76103pt too high) has occurred while \output is active []
 
 
-[23 <./figures/RDBayes_2noise_hyperprior_6model_recovery.jpg>]
-<figures/R1_2noise_6modelcomparison_dist.jpg, id=244, 1421.31pt x 2046.64626pt>
-
-File: figures/R1_2noise_6modelcomparison_dist.jpg Graphic file (type jpg)
-<use figures/R1_2noise_6modelcomparison_dist.jpg>
-Package pdftex.def Info: figures/R1_2noise_6modelcomparison_dist.jpg  used on i
-nput line 287.
+[16 <./SFigs/S16_fig.jpg>]
+<SFigs/S17_fig.jpg, id=171, 1421.31pt x 2046.64626pt>
+File: SFigs/S17_fig.jpg Graphic file (type jpg)
+<use SFigs/S17_fig.jpg>
+Package pdftex.def Info: SFigs/S17_fig.jpg  used on input line 223.
 (pdftex.def)             Requested size: 404.71353pt x 582.76935pt.
 
 
-LaTeX Warning: Float too large for page by 15.25816pt on input line 292.
+LaTeX Warning: Float too large for page by 15.25816pt on input line 227.
 
-[24] [25 <./figures/R1_2noise_6modelcomparison_dist.jpg>]
-<figures/R1_2noise_6modelcomparison_map.jpg, id=257, 1421.31pt x 2046.64626pt>
-File: figures/R1_2noise_6modelcomparison_map.jpg Graphic file (type jpg)
-<use figures/R1_2noise_6modelcomparison_map.jpg>
-Package pdftex.def Info: figures/R1_2noise_6modelcomparison_map.jpg  used on in
-put line 299.
+[17] [18 <./SFigs/S17_fig.jpg>]
+<SFigs/S18_fig.jpg, id=183, 1421.31pt x 2046.64626pt>
+File: SFigs/S18_fig.jpg Graphic file (type jpg)
+<use SFigs/S18_fig.jpg>
+Package pdftex.def Info: SFigs/S18_fig.jpg  used on input line 234.
 (pdftex.def)             Requested size: 404.71353pt x 582.76935pt.
 
 
-LaTeX Warning: Float too large for page by 15.25816pt on input line 304.
+LaTeX Warning: Float too large for page by 35.65817pt on input line 238.
 
 \Changes@OutFile=\write6
 \openout6 = `S1_Text.soc'.
@@ -1103,36 +1007,33 @@ LaTeX Warning: Float too large for page by 15.25816pt on input line 304.
 \tf@loc=\write7
 \openout7 = `S1_Text.loc'.
 
-[26] [27 <./figures/R1_2noise_6modelcomparison_map.jpg>] (S1_Text.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+[19] [20 <./SFigs/S18_fig.jpg>] (S1_Text.aux)
 Package rerunfilecheck Info: File `S1_Text.out' has not changed.
-(rerunfilecheck)             Checksum: A31ACA246774174AA689558E9E4FE78D;5219.
+(rerunfilecheck)             Checksum: 9DBCBE6820CF7A4BA35498AA563FA3AE;2973.
  ) 
 Here is how much of TeX's memory you used:
- 24218 strings out of 478338
- 459704 string characters out of 2834777
- 727186 words of memory out of 3000000
- 42131 multiletter control sequences out of 15000+600000
- 494147 words of font info for 85 fonts, out of 8000000 for 9000
+ 24126 strings out of 478338
+ 454575 string characters out of 2834777
+ 722994 words of memory out of 3000000
+ 42068 multiletter control sequences out of 15000+600000
+ 495466 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,108p,2033b,554s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 114i,10n,108p,1969b,547s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmmi12.pfb><C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Siyu Wang/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Siyu Wang/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siyu W
-ang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.
-pfb><C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utm
-b8a.pfb><C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
-/utmr8a.pfb>
-Output written on S1_Text.pdf (27 pages, 4056126 bytes).
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Siyu Wang/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Siyu 
+Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/User
+s/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><
+C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
+fb><C:/Users/Siyu Wang/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr
+8a.pfb>
+Output written on S1_Text.pdf (20 pages, 3042351 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

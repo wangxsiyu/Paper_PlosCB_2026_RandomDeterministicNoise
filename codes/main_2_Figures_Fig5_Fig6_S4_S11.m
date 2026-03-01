@@ -31,7 +31,7 @@ sp{1} = paramsub{1};
 sp{2} = load(fullfile(outputdir, ['HBI_DetRanNoise_dRonly_samples.mat'])).samples;
 %
 EEplot_2noise_reduced(plt, sp);
-plt.update('S4_fig');
+plt.update('S4_Fig');
 %% deterministic noise ratio
 sp = load(fullfile(outputdir, ['HBI_DetRanNoise_samples.mat'])).samples;
 %%
